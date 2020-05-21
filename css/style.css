@@ -1,7 +1,39 @@
-body{
+body {
     background: #e6e6e6;
 }
 
-.mainHeader{
-color: green;
+#menu {
+    
+    width: 100%;
+    max-width: 700px;
+    
+}
+
+.main{
+    width: 100%;
+    max-width: 700px;
+    margin: 32px auto;
+}
+
+.mainHeader {
+    border-bottom: 3px solid green;
+    color: green;
+    width: 100%;
+    max-width: 700px;
+}
+
+#fota2{
+    width: 200px;
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+    animation: organic alternate 43s ease-in-out infinite reverse;
+}
+
+#footer{
+    width: 700px;
+    height: 100px;
+    margin: 32px auto;
+    background: black;
+    color: white;
+
+
 }
