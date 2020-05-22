@@ -10,34 +10,39 @@
 
 <body>
 
-    <header id="navigation" class="navigation">
-        <a href="index.html">Strona główna</a>
-        <a href="galeria.html">Galeria</a>
-        <a href="testy.html">Testy</a>
-        <a href="wywiady.html">Wywiady</a>
-        <a href="kontakt.html">Kontakt</a>
-    </header>
+    <div class="wrapper">
 
+        <ul>
+            <a href="index.html">
+                <li><img class="logo" src="assets/photos/Logo.jpg" alt="logo"></li>
+            </a>
+            <a href="galeria.html">
+                <li> Galeria</li>
+            </a>
 
+            <a href="testy.html">
+                <li>Testy</li>
+            </a>
+            <li>Wywiady
+                <ul>
+                    <a href="wywiady-zawodnicy.html">
+                        <li>Zawodnicy</li>
+                    </a>
+                    <a href="wywiady-trenerzy.html">
+                        <li>Trenerzy</li>
+                    </a>
+                </ul>
+            </li>
+            <a href="kontakt.html">
+                <li>Kontakt</li>
+            </a>
+        </ul>
 
+    </div>
 
     <main id="main" class="main">
-        <div class="menu">
-            <a href="index.html">
-                <img id="logo" src="assets/photos/Logo.jpg" alt="logo"></a>
-            <a href="galeria.html">
-                <button class="button--menu">Galeria</button></a>
-            <a href="testy.html">
-                <button class="button--testy">Testy</button></a>
-            <a href="wywiady.html">
-                <button class="button--wywiady">Wywiady</button></a>
-            <a href="kontakt.html">
-                <button class="button--kontakt">Kontakt</button></a>
 
 
-
-
-        </div>
 
         <section class="firsDescription">
             <h2 class="secondHeader_01"> Jesteśmy tu z pasji do jednośladów</h2>
@@ -59,8 +64,8 @@
 
         <section class="secondDescription">
             <h2 class="secondHeader_02">Wiele ciekawych wywiadów z zawodnikami i trenerami</h2>
-            <p class="paragraph--index_02">
-                <img id="fota--index_02" src="assets/photos/cyclist_01.jpg" alt=" fotka z wywiadu" />
+            <p class="paragraph--index_02"><a href="wywiady-zawodnicy.html">
+                    <img id="fota--index_02" src="assets/photos/cyclist_01.jpg" alt=" fotka z wywiadu" /></a>
                 Contra opinione vulgi, accumsan illud non est contentus. Eius originis potest reducere in XLV BC, et in
                 unum
                 superfuit de fragmentis ad literaturam Romanam classicam ex textu, qui eius plus quam duo milia annos
@@ -74,7 +79,7 @@
                 Tractatus iste valde vulgaris in doctrina morali in Renaissance. Primam aciem accumsan "ipsum dolor sit
                 amet
                 .." Caput 1.10.32 inter lineas.<br>
-                <a href="wywiady.html">Przejdź do wywiadów</a>
+                <a href="wywiady-zawodnicy.html">Wywiad z zawodnikiem</a>
 
             </p>
 
