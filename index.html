@@ -10,7 +10,7 @@
 
 <body>
 
-    <header id="menu">
+    <header id="navigation" class="navigation">
         <a href="index.html">Strona główna</a>
         <a href="galeria.html">Galeria</a>
         <a href="testy.html">Testy</a>
@@ -18,12 +18,12 @@
         <a href="kontakt.html">Kontakt</a>
     </header>
 
-    <main class="main">
-        <h1 class="mainHeader"> Magazyn rowerowy</h1>
+    <main id="main" class="main">
+        <img id="logo" src="assets/photos/Logo.jpg" alt="logo">
 
         <section class="firsDescription">
-            <h2> Jesteśmy tu z pasji do jednośladów</h2>
-            <p>
+            <h2 class="secondHeader_01"> Jesteśmy tu z pasji do jednośladów</h2>
+            <p class="paragraph--index_01">
                 Lorem Ipsum accumsan a textu simul et printing in layout opera. Est quia illud quod loco accumsan facti
                 ad
                 mane 16th century. In tempore, et ignotum fuit, printer partum a snippet a textu typis imprimi cum
@@ -36,12 +36,13 @@
                 Aldus:
                 cui Template sample accumsan uti textus.
             </p>
-            <img src="assets/photos/mainBike_01.jpg" alt="fotka roweru" />
+            <img id="fota--index_01" src="assets/photos/mainBike_01.jpg" alt="fotka roweru" />
         </section>
 
         <section class="secondDescription">
-            <h2>Wiele ciekawych wywiadów z zawodnikami i trenerami</h2>
-            <p>
+            <h2 class="secondHeader_02">Wiele ciekawych wywiadów z zawodnikami i trenerami</h2>
+            <p class="paragraph--index_02">
+                <img id="fota--index_02" src="assets/photos/cyclist_01.jpg" alt=" fotka z wywiadu" />
                 Contra opinione vulgi, accumsan illud non est contentus. Eius originis potest reducere in XLV BC, et in
                 unum
                 superfuit de fragmentis ad literaturam Romanam classicam ex textu, qui eius plus quam duo milia annos
@@ -54,18 +55,18 @@
                 Bonorum et circumscriptio) 1.10.32 et 1.10.33. capitibus enarratis, quae in XLV BC. Cicero scripsit.
                 Tractatus iste valde vulgaris in doctrina morali in Renaissance. Primam aciem accumsan "ipsum dolor sit
                 amet
-                .." Caput 1.10.32 inter lineas.
-                <a href="wywiady.html">Przejdź do wywiadów</a>
+                .." Caput 1.10.32 inter lineas.<br>            
+                <a href="wywiady.html" >Przejdź do wywiadów</a>
+                
             </p>
 
-            <img id="fota2" src="assets/photos/cyclist_01.jpg" alt=" fotka z wywiadu" />
         </section>
     </main>
 
-    <footer id="footer">
-        <a href="kontakt.html">Kontakt</a>
-        <a href="#menu">Powrót na początek</a>
-        <img id="fb-icon" src="assets/photos/FB-icon.png" alt="ikona fb" />
+    <a href="#main" class="powrot">Przewiń do góry</a>
+
+    <footer id="footer" class="footer">
+        <a href="kontakt.html">Kontakt</a>       
     </footer>
 
 </body>
