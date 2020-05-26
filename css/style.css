@@ -16,7 +16,7 @@
 }
 
 .wrapper ul li {
-    background: black;
+    background-image: linear-gradient(gray, black);
     width: 180px;
     border: 1px solid white;
     height: 50px;
@@ -238,14 +238,24 @@
 }
 
 #fb--icon {
+    
     width: 30px;
     height: 30px;
 }
-
+#fb--icon:hover{
+    background-color: #476dbe;
+    transition-duration: 400ms;
+    transition-timing-function: cubic-bezier(.645, .045, .355, 1);
+}
 #insta--icon {
     width: 20px;
     height: 20px;
     padding-bottom: 4px;
+}
+#insta--icon:hover {
+    background-color: #eb9aeb;
+    transition-duration: 400ms;
+    transition-timing-function: cubic-bezier(.645, .045, .355, 1);
 }
 
 #yt--icon {
@@ -253,4 +263,9 @@
     height: 22px;
     padding-bottom: 3px;
     padding-left: 2px;
+}
+#yt--icon:hover{
+    background-color: red;
+    transition-duration: 400ms;
+    transition-timing-function: cubic-bezier(.645, .045, .355, 1);
 }
