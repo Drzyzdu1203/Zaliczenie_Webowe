@@ -237,35 +237,26 @@
     font-size: 12px;
 }
 
-#fb--icon {
+#fb--icon, #yt--icon, #insta--icon {
     
     width: 30px;
     height: 30px;
 }
 #fb--icon:hover{
-    background-color: #476dbe;
-    transition-duration: 400ms;
-    transition-timing-function: cubic-bezier(.645, .045, .355, 1);
-}
-#insta--icon {
-    width: 20px;
-    height: 20px;
-    padding-bottom: 4px;
-}
-#insta--icon:hover {
-    background-color: #eb9aeb;
-    transition-duration: 400ms;
-    transition-timing-function: cubic-bezier(.645, .045, .355, 1);
+    background-color: #1877F2;
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(.500, .100, .500, 1);
 }
 
-#yt--icon {
-    width: 22px;
-    height: 22px;
-    padding-bottom: 3px;
-    padding-left: 2px;
+#insta--icon:hover {
+    background-color: #E4405F;
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(.500, .100, .500, 1);
 }
+
+
 #yt--icon:hover{
-    background-color: red;
-    transition-duration: 400ms;
-    transition-timing-function: cubic-bezier(.645, .045, .355, 1);
+    background-color: #FF0000;
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(.500, .100, .500, 1);
 }

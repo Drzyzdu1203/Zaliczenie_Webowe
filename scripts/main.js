@@ -38,10 +38,6 @@ function deleteList(myTable) {
             }  
             }  
         } 
-
-
-
-
         function deleteList(myTable) {  
             var table = document.getElementById(myTable);  
             var rowCount = table.rows.length;  
